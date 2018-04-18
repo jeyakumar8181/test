@@ -2,7 +2,7 @@ var http = require('http');
 
 http.createServer(function(req, res){
 
-res.writeHead(200, {'content-type':'text/plain'});
+res.writeHead(500, {'content-type':'text/plain'});
 res.end('Welcome ECS');
 }).listen(9001);
 
