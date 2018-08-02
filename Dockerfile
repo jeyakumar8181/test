@@ -9,3 +9,4 @@ COPY . /
 
 CMD ["nodejs","server.js"]
 
+EXPOSE 9001
