@@ -6,4 +6,4 @@ res.writeHead(200, {'content-type':'text/plain'});
 res.end('Welcome jaikumar');
 }).listen(8080);
 
-console.log('Server is running on a port over 9001 !!');
+console.log('Server is running on a port over 8080 !!');
