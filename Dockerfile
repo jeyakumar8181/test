@@ -1,4 +1,4 @@
-FROM ubuntu:lates
+FROM ubuntu:latest
 
 RUN apt-get update -y
 RUN apt-get install nodejs -y
